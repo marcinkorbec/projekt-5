@@ -31,5 +31,4 @@ input.addEventListener('blur', (e) => {
 //     div.textContent = 'błędne hasło';
 //    } else {
 //       div.textContent = '';
-
 //    }
