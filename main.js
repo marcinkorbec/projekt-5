@@ -27,6 +27,7 @@ input.addEventListener('blur', (e) => {
 // if (password === this.value) {
 //     div.textContent = message;
 //     this.value = '';
+
 //    } else if (password !== this.value) {
 //     div.textContent = 'błędne hasło';
 //    } else {
