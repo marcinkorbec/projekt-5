@@ -24,12 +24,12 @@ input.addEventListener('blur', (e) => {
  e.target.classList.remove('active');
 })
 
-// if (password === this.value) {
-//     div.textContent = message;
-//     this.value = '';
-
-//    } else if (password !== this.value) {
-//     div.textContent = 'błędne hasło';
-//    } else {
-//       div.textContent = '';
-//    }
+if (password === this.value) {
+    div.textContent = message;
+    this.value = '';
+//
+   } else if (password !== this.value) {
+    div.textContent = 'błędne hasło';
+   } else {
+      div.textContent = '';
+   }
